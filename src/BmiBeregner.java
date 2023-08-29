@@ -1,3 +1,5 @@
+import com.sun.tools.javac.Main;
+
 import java.util.Scanner;
 
 public class BmiBeregner {
@@ -34,7 +36,7 @@ public class BmiBeregner {
         }
 
         else if (bmi >= 18.5 && bmi < 25) {
-            System.out.println("Du har en normal vægt");
+            System.out.println(" "  + "Du har en normal vægt");
         }
 
     }
