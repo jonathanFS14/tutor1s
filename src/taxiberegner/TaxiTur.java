@@ -1,3 +1,5 @@
+package taxiberegner;
+
 import java.util.Scanner;
 
 public class TaxiTur {
