@@ -29,4 +29,13 @@ public class Ingrediens {
     public double getEnergiPerEnhed() {
         return energiPerEnhed;
     }
+
+    @Override
+    public String toString() {
+        return        "type " + type + '\'' +
+                " mængde " + mængde +
+                " enhed " + enhed + '\'' +
+                " energiPerEnhed " + energiPerEnhed;
+    }
+
 }
